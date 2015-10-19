@@ -1,0 +1,273 @@
+
+[DEBUG] [10/19/2015 11:59:30.864] [main] [EventStream(akka://default)] logger log1-Logging$DefaultLogger started
+[DEBUG] [10/19/2015 11:59:30.864] [main] [EventStream(akka://default)] Default Loggers started
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/nutz/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/nutz/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+11:59:31.142 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.t.CTConnectionFactory - Creating TSocket(127.0.0.1, 9160, null, null, 10000)
+11:59:31.315 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+[DEBUG] [10/19/2015 11:59:31.326] [default-akka.actor.default-dispatcher-7] [akka://default/system/IO-TCP/selectors/$a/0] Successfully bound to /0:0:0:0:0:0:0:0:9000
+11:59:31.333 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.t.CTConnectionFactory - Creating TSocket(127.0.0.1, 9160, null, null, 10000)
+11:59:31.334 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.334 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily system_properties were found.
+11:59:31.368 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@542ed0ea[read=QUORUM,write=QUORUM]
+11:59:31.398 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@99ac85d[read=QUORUM,write=QUORUM]
+11:59:31.402 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@7eb14f[read=QUORUM,write=QUORUM]
+11:59:31.404 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@278c67f0[read=QUORUM,write=QUORUM]
+11:59:31.407 [default-akka.actor.default-dispatcher-3] WARN  c.t.t.g.c.GraphDatabaseConfiguration - Local setting cache.db-cache-clean-wait=20 (Type: GLOBAL_OFFLINE) is overridden by globally managed value (50).  Use the ManagementSystem interface instead of the local configuration to control this setting.
+11:59:31.408 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@7f219492[read=QUORUM,write=QUORUM]
+11:59:31.409 [default-akka.actor.default-dispatcher-3] WARN  c.t.t.g.c.GraphDatabaseConfiguration - Local setting cache.db-cache-time=0 (Type: GLOBAL_OFFLINE) is overridden by globally managed value (10000).  Use the ManagementSystem interface instead of the local configuration to control this setting.
+11:59:31.409 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@5e65aecc[read=QUORUM,write=QUORUM]
+11:59:31.413 [default-akka.actor.default-dispatcher-3] INFO  c.t.t.d.c.t.CassandraThriftStoreManager - Closed Thrift connection pooler.
+11:59:31.417 [default-akka.actor.default-dispatcher-3] INFO  c.t.t.g.c.GraphDatabaseConfiguration - Generated unique-instance-id=7f00010117225-laptop
+11:59:31.427 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.t.CTConnectionFactory - Creating TSocket(127.0.0.1, 9160, null, null, 10000)
+11:59:31.436 [default-akka.actor.default-dispatcher-3] INFO  c.t.titan.diskstorage.Backend - Initiated backend operations thread pool of size 16
+11:59:31.437 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.439 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.t.CTConnectionFactory - Creating TSocket(127.0.0.1, 9160, null, null, 10000)
+11:59:31.439 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.439 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily titan_ids were found.
+11:59:31.442 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.444 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.444 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily edgestore were found.
+11:59:31.446 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.447 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.447 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily edgestore_lock_ were found.
+11:59:31.461 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.locking.LocalLockMediators - Local lock mediator instantiated for namespace CassandraThriftStoreManagertitan
+11:59:31.463 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.464 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.464 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily graphindex were found.
+11:59:31.464 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.465 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.467 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily graphindex_lock_ were found.
+11:59:31.468 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.469 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.469 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily txlog were found.
+11:59:31.472 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@384d5a86[read=QUORUM,write=QUORUM]
+11:59:31.474 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.475 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.475 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily systemlog were found.
+11:59:31.475 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@695b0337[read=QUORUM,write=QUORUM]
+11:59:31.476 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.477 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.477 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily system_properties were found.
+11:59:31.478 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Found existing keyspace titan
+11:59:31.479 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Looking up metadata on keyspace titan...
+11:59:31.479 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.t.CassandraThriftStoreManager - Keyspace titan and ColumnFamily system_properties_lock_ were found.
+11:59:31.487 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.VertexIDAssigner - Partition IDs? [true], Local Partitions? [false]
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [0] to: 3
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [1] to: 14
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [2] to: 14
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [3] to: 31
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [4] to: 3
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [5] to: 21
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [6] to: 11
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [7] to: 1
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [8] to: 28
+11:59:31.490 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.d.i.p.SimpleBulkPlacementStrategy - Setting partition at index [9] to: 22
+11:59:31.521 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@51bbad49[read=QUORUM,write=QUORUM]
+11:59:31.522 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@5b5a0abe[read=QUORUM,write=QUORUM]
+11:59:31.525 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@d75d571[read=QUORUM,write=QUORUM]
+11:59:31.525 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@4c6847e9[read=QUORUM,write=QUORUM]
+11:59:31.536 [default-akka.actor.default-dispatcher-3] INFO  c.t.t.diskstorage.log.kcvs.KCVSLog - Loaded unidentified ReadMarker start time 2015-10-19T08:59:31.536Z into com.thinkaurelius.titan.diskstorage.log.kcvs.KCVSLog$MessagePuller@13e9654d
+11:59:31.547 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.diskstorage.log.kcvs.KCVSLog - Creating log read executor: initialDelay=100000000 delay=5000000000 unit=NANOSECONDS
+11:59:31.552 [default-akka.actor.default-dispatcher-3] DEBUG c.t.t.g.database.StandardTitanGraph - Installed shutdown hook Thread[Thread-3,5,main]
+java.lang.Throwable: Hook creation trace
+	at com.thinkaurelius.titan.graphdb.database.StandardTitanGraph.<init>(StandardTitanGraph.java:156) [titan-core-1.0.0.jar:na]
+	at com.thinkaurelius.titan.core.TitanFactory.open(TitanFactory.java:94) [titan-core-1.0.0.jar:na]
+	at com.thinkaurelius.titan.core.TitanFactory.open(TitanFactory.java:74) [titan-core-1.0.0.jar:na]
+	at DbAdapter.connect(test.scala:65) [classes/:na]
+	at DbAdapter.<init>(test.scala:46) [classes/:na]
+	at DbActor.<init>(test.scala:36) [classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.8.0_45]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [na:1.8.0_45]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [na:1.8.0_45]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) [na:1.8.0_45]
+	at java.lang.Class.newInstance(Class.java:442) [na:1.8.0_45]
+	at akka.util.Reflect$.instantiate(Reflect.scala:45) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.actor.NoArgsReflectConstructor.produce(Props.scala:361) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.actor.Props.newActor(Props.scala:252) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.actor.ActorCell.newActor(ActorCell.scala:552) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.actor.ActorCell.create(ActorCell.scala:578) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.actor.ActorCell.invokeAll$1(ActorCell.scala:456) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.actor.ActorCell.systemInvoke(ActorCell.scala:478) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.dispatch.Mailbox.processAllSystemMessages(Mailbox.scala:263) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:219) [akka-actor_2.11-2.3.12.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397) [akka-actor_2.11-2.3.12.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.7.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.7.jar:na]
+11:59:31.648 [pool-4-thread-1] DEBUG c.t.t.diskstorage.log.kcvs.KCVSLog - MessagePuller configured with ReadMarker timestamp slightly ahead of read lag time; waiting for the clock to catch up
+11:59:36.649 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@76d1d6b7[read=QUORUM,write=QUORUM]
+11:59:41.651 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@33d34609[read=QUORUM,write=QUORUM]
+11:59:46.652 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@2251231[read=QUORUM,write=QUORUM]
+11:59:51.656 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@22a519b[read=QUORUM,write=QUORUM]
+11:59:56.660 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@7a365b07[read=QUORUM,write=QUORUM]
+[DEBUG] [10/19/2015 11:59:57.934] [default-akka.actor.default-dispatcher-3] [akka://default/system/IO-TCP/selectors/$a/0] New connection accepted
+[INFO] [10/19/2015 11:59:58.176] [default-akka.actor.default-dispatcher-9] [Main$(akka://default)] got Test entity: Test(xyz,50)
+11:59:58.228 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+11:59:58.228 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+11:59:58.229 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+11:59:58.230 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@5e4173c[read=QUORUM,write=QUORUM]
+11:59:58.230 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@3d687328[read=QUORUM,write=QUORUM]
+[DEBUG] [10/19/2015 11:59:58.233] [default-akka.actor.default-dispatcher-9] [ActorSystem(default)] test: Response for
+  Request : HttpRequest(HttpMethod(POST),http://localhost:9000/api/v1/test,List(User-Agent: curl/7.32.0, Host: localhost:9000, Accept: */*),HttpEntity.Strict(application/json,ByteString(123, 34, 110, 97, 109, 101, 34, 58, 34, 120, 121, 122, 34, 44, 34, 97, 103, 101, 34, 58, 53, 48, 125)),HttpProtocol(HTTP/1.1))
+  Response: Complete(HttpResponse(201 Created,List(),HttpEntity.Strict(text/plain; charset=UTF-8,ByteString(84, 104, 101, 32, 114, 101, 113, 117, 101, 115, 116, 32, 104, 97, 115, 32, 98, 101, 101, 110, 32, 102, 117, 108, 102, 105, 108, 108, 101, 100, 32, 97, 110, 100, 32, 114, 101, 115, 117, 108, 116, 101, 100, 32, 105, 110, 32, 97, 32, 110, 101, 119, 32, 114, 101, 115, 111, 117, 114, 99, 101, 32, 98, 101, 105, 110, 103, 32, 99, 114, 101, 97, 116, 101, 100, 46)),HttpProtocol(HTTP/1.1)))
+11:59:58.233 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.TitanBlueprintsGraph - Created new thread-bound transaction standardtitantx[0x1d4e081d]
+11:59:58.242 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+11:59:58.243 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+11:59:58.243 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+11:59:58.249 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@31770edb[read=QUORUM,write=QUORUM]
+11:59:58.249 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@42f91c35[read=QUORUM,write=QUORUM]
+[DEBUG] [10/19/2015 11:59:58.265] [default-akka.actor.default-dispatcher-12] [akka://default/system/IO-TCP/selectors/$a/0] New connection accepted
+11:59:58.291 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+11:59:58.294 [TitanID(0)(4)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@61be4153[read=QUORUM,write=QUORUM]
+11:59:58.297 [TitanID(0)(4)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@44932c4f[read=QUORUM,write=QUORUM]
+[INFO] [10/19/2015 11:59:58.298] [default-akka.actor.default-dispatcher-7] [Main$(akka://default)] got Test entity: Test(yzx,50)
+[DEBUG] [10/19/2015 11:59:58.298] [default-akka.actor.default-dispatcher-7] [ActorSystem(default)] test: Response for
+  Request : HttpRequest(HttpMethod(POST),http://localhost:9000/api/v1/test,List(User-Agent: curl/7.32.0, Host: localhost:9000, Accept: */*),HttpEntity.Strict(application/json,ByteString(123, 34, 110, 97, 109, 101, 34, 58, 34, 121, 122, 120, 34, 44, 34, 97, 103, 101, 34, 58, 53, 48, 125)),HttpProtocol(HTTP/1.1))
+  Response: Complete(HttpResponse(201 Created,List(),HttpEntity.Strict(text/plain; charset=UTF-8,ByteString(84, 104, 101, 32, 114, 101, 113, 117, 101, 115, 116, 32, 104, 97, 115, 32, 98, 101, 101, 110, 32, 102, 117, 108, 102, 105, 108, 108, 101, 100, 32, 97, 110, 100, 32, 114, 101, 115, 117, 108, 116, 101, 100, 32, 105, 110, 32, 97, 32, 110, 101, 119, 32, 114, 101, 115, 111, 117, 114, 99, 101, 32, 98, 101, 105, 110, 103, 32, 99, 114, 101, 97, 116, 101, 100, 46)),HttpProtocol(HTTP/1.1)))
+[DEBUG] [10/19/2015 11:59:58.309] [default-akka.actor.default-dispatcher-21] [akka://default/system/IO-TCP/selectors/$a/0] New connection accepted
+[INFO] [10/19/2015 11:59:58.325] [default-akka.actor.default-dispatcher-18] [Main$(akka://default)] got Test entity: Test(zyx,50)
+[DEBUG] [10/19/2015 11:59:58.325] [default-akka.actor.default-dispatcher-18] [ActorSystem(default)] test: Response for
+  Request : HttpRequest(HttpMethod(POST),http://localhost:9000/api/v1/test,List(User-Agent: curl/7.32.0, Host: localhost:9000, Accept: */*),HttpEntity.Strict(application/json,ByteString(123, 34, 110, 97, 109, 101, 34, 58, 34, 122, 121, 120, 34, 44, 34, 97, 103, 101, 34, 58, 53, 48, 125)),HttpProtocol(HTTP/1.1))
+  Response: Complete(HttpResponse(201 Created,List(),HttpEntity.Strict(text/plain; charset=UTF-8,ByteString(84, 104, 101, 32, 114, 101, 113, 117, 101, 115, 116, 32, 104, 97, 115, 32, 98, 101, 101, 110, 32, 102, 117, 108, 102, 105, 108, 108, 101, 100, 32, 97, 110, 100, 32, 114, 101, 115, 117, 108, 116, 101, 100, 32, 105, 110, 32, 97, 32, 110, 101, 119, 32, 114, 101, 115, 111, 117, 114, 99, 101, 32, 98, 101, 105, 110, 103, 32, 99, 114, 101, 97, 116, 101, 100, 46)),HttpProtocol(HTTP/1.1)))
+11:59:58.630 [TitanID(0)(4)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@5aca10a7[read=QUORUM,write=QUORUM]
+11:59:58.632 [TitanID(0)(4)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[701,751)/0:4] on partition(0)-namespace(4) (my rid is 7f00010117225-laptop)
+11:59:58.632 [TitanID(0)(4)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(0)-namespace(4), exec time 339.7 ms, exec+q time 340.1 ms
+11:59:58.633 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(0)-namespace(4) acquired block: [[701,751)/0:4]
+11:59:58.633 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+11:59:58.633 [TitanID(0)(4)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@5f580a0f[read=QUORUM,write=QUORUM]
+11:59:58.635 [TitanID(0)(4)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@3039fa65[read=QUORUM,write=QUORUM]
+11:59:58.647 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+11:59:58.968 [TitanID(0)(4)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@1532ac4a[read=QUORUM,write=QUORUM]
+11:59:58.971 [TitanID(0)(4)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[751,801)/0:4] on partition(0)-namespace(4) (my rid is 7f00010117225-laptop)
+11:59:58.971 [TitanID(0)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@5ae6b0d6[read=QUORUM,write=QUORUM]
+11:59:58.971 [TitanID(0)(4)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(0)-namespace(4), exec time 338.0 ms, exec+q time 338.0 ms
+11:59:58.976 [TitanID(0)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@542145fa[read=QUORUM,write=QUORUM]
+11:59:59.309 [TitanID(0)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@501edba6[read=QUORUM,write=QUORUM]
+11:59:59.310 [TitanID(0)(3)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[560001,640001)/0:4] on partition(0)-namespace(3) (my rid is 7f00010117225-laptop)
+11:59:59.310 [TitanID(0)(3)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(0)-namespace(3), exec time 663.0 ms, exec+q time 663.2 ms
+11:59:59.310 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(0)-namespace(3) acquired block: [[560001,640001)/0:4]
+11:59:59.318 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+11:59:59.318 [TitanID(11)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@2f663eae[read=QUORUM,write=QUORUM]
+11:59:59.319 [TitanID(11)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@21a1c532[read=QUORUM,write=QUORUM]
+11:59:59.655 [TitanID(11)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@259e55de[read=QUORUM,write=QUORUM]
+11:59:59.658 [TitanID(11)(0)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[1,10001)/0:4] on partition(11)-namespace(0) (my rid is 7f00010117225-laptop)
+11:59:59.658 [TitanID(11)(0)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(11)-namespace(0), exec time 340.4 ms, exec+q time 340.7 ms
+11:59:59.659 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(11)-namespace(0) acquired block: [[1,10001)/0:4]
+11:59:59.660 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+11:59:59.661 [TitanID(11)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@66a45e16[read=QUORUM,write=QUORUM]
+11:59:59.665 [TitanID(11)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@6863bcb2[read=QUORUM,write=QUORUM]
+12:00:00.000 [TitanID(11)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@6c5c3566[read=QUORUM,write=QUORUM]
+12:00:00.001 [TitanID(11)(3)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[1,80001)/0:4] on partition(11)-namespace(3) (my rid is 7f00010117225-laptop)
+12:00:00.002 [TitanID(11)(3)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(11)-namespace(3), exec time 340.4 ms, exec+q time 341.1 ms
+12:00:00.002 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(11)-namespace(3) acquired block: [[1,80001)/0:4]
+12:00:00.004 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+12:00:00.004 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+12:00:00.004 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+12:00:00.005 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@2f47a7[read=QUORUM,write=QUORUM]
+12:00:00.005 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@4d3a7091[read=QUORUM,write=QUORUM]
+12:00:00.017 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+12:00:00.017 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+12:00:00.017 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+12:00:00.017 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@2a04298e[read=QUORUM,write=QUORUM]
+12:00:00.017 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@7975584f[read=QUORUM,write=QUORUM]
+12:00:00.024 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+12:00:00.025 [TitanID(3)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@9bbb1a[read=QUORUM,write=QUORUM]
+12:00:00.026 [TitanID(3)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@e5c4579[read=QUORUM,write=QUORUM]
+12:00:00.359 [TitanID(3)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@a63d06a[read=QUORUM,write=QUORUM]
+12:00:00.362 [TitanID(3)(0)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[1,10001)/0:4] on partition(3)-namespace(0) (my rid is 7f00010117225-laptop)
+12:00:00.363 [TitanID(3)(0)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(3)-namespace(0), exec time 337.7 ms, exec+q time 337.9 ms
+12:00:00.363 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(3)-namespace(0) acquired block: [[1,10001)/0:4]
+12:00:00.364 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+12:00:00.367 [TitanID(3)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@6a94c9e9[read=QUORUM,write=QUORUM]
+12:00:00.370 [TitanID(3)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@64532acb[read=QUORUM,write=QUORUM]
+12:00:00.705 [TitanID(3)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@606ca299[read=QUORUM,write=QUORUM]
+12:00:00.707 [TitanID(3)(3)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[1,80001)/0:4] on partition(3)-namespace(3) (my rid is 7f00010117225-laptop)
+12:00:00.707 [TitanID(3)(3)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(3)-namespace(3), exec time 340.6 ms, exec+q time 342.4 ms
+12:00:00.707 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(3)-namespace(3) acquired block: [[1,80001)/0:4]
+12:00:00.710 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+12:00:00.711 [TitanID(31)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@62e0e163[read=QUORUM,write=QUORUM]
+12:00:00.717 [TitanID(31)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@6c27134f[read=QUORUM,write=QUORUM]
+12:00:01.052 [TitanID(31)(0)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@68188a13[read=QUORUM,write=QUORUM]
+12:00:01.054 [TitanID(31)(0)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[20001,30001)/0:4] on partition(31)-namespace(0) (my rid is 7f00010117225-laptop)
+12:00:01.054 [TitanID(31)(0)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(31)-namespace(0), exec time 342.9 ms, exec+q time 343.5 ms
+12:00:01.054 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(31)-namespace(0) acquired block: [[20001,30001)/0:4]
+12:00:01.054 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Starting id block renewal thread upon 0
+12:00:01.055 [TitanID(31)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@5c59c4a2[read=QUORUM,write=QUORUM]
+12:00:01.056 [TitanID(31)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@529e2159[read=QUORUM,write=QUORUM]
+12:00:01.388 [TitanID(31)(3)[0]] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@56a1afd2[read=QUORUM,write=QUORUM]
+12:00:01.389 [TitanID(31)(3)[0]] DEBUG c.t.t.d.i.ConsistentKeyIDAuthority - Acquired ID block [[160001,240001)/0:4] on partition(31)-namespace(3) (my rid is 7f00010117225-laptop)
+12:00:01.389 [TitanID(31)(3)[0]] DEBUG c.t.t.g.d.idassigner.StandardIDPool - Retrieved ID block from authority on partition(31)-namespace(3), exec time 334.4 ms, exec+q time 334.6 ms
+12:00:01.389 [default-akka.actor.default-dispatcher-10] DEBUG c.t.t.g.d.idassigner.StandardIDPool - ID partition(31)-namespace(3) acquired block: [[160001,240001)/0:4]
+12:00:01.663 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@53fcb946[read=QUORUM,write=QUORUM]
+[DEBUG] [10/19/2015 12:00:03.346] [default-akka.actor.default-dispatcher-10] [akka://default/system/IO-TCP/selectors/$a/0] New connection accepted
+[INFO] [10/19/2015 12:00:03.374] [default-akka.actor.default-dispatcher-13] [Main$(akka://default)] got get request
+12:00:03.413 [default-akka.actor.default-dispatcher-8] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+12:00:03.413 [default-akka.actor.default-dispatcher-8] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+12:00:03.413 [default-akka.actor.default-dispatcher-8] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+12:00:03.413 [default-akka.actor.default-dispatcher-8] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@3ba89129[read=QUORUM,write=QUORUM]
+12:00:03.413 [default-akka.actor.default-dispatcher-8] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@21070236[read=QUORUM,write=QUORUM]
+12:00:03.413 [default-akka.actor.default-dispatcher-8] DEBUG c.t.t.g.t.TitanBlueprintsGraph - Created new thread-bound transaction standardtitantx[0x0a2ca816]
+12:00:03.414 [default-akka.actor.default-dispatcher-8] WARN  c.t.t.g.transaction.StandardTitanTx - Query requires iterating over all vertices [()]. For better performance, use indexes
+[DEBUG] [10/19/2015 12:00:03.434] [default-akka.actor.default-dispatcher-13] [ActorSystem(default)] test: Response for
+  Request : HttpRequest(HttpMethod(GET),http://localhost:9000/api/v1/test,List(User-Agent: curl/7.32.0, Host: localhost:9000, Accept: */*),HttpEntity.Strict(none/none,ByteString()),HttpProtocol(HTTP/1.1))
+  Response: Complete(HttpResponse(200 OK,List(),HttpEntity.Strict(application/json,ByteString(123, 10, 32, 32, 34, 110, 97, 109, 101, 34, 58, 32, 34, 85, 115, 101, 114, 115, 34, 44, 10, 32, 32, 34, 97, 103, 101, 34, 58, 32, 48, 10, 125)),HttpProtocol(HTTP/1.1)))
+12:00:06.665 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@79e29d92[read=QUORUM,write=QUORUM]
+[DEBUG] [10/19/2015 12:00:08.455] [default-akka.actor.default-dispatcher-24] [akka://default/system/IO-TCP/selectors/$a/0] New connection accepted
+[INFO] [10/19/2015 12:00:08.477] [default-akka.actor.default-dispatcher-18] [Main$(akka://default)] got get request
+12:00:08.478 [default-akka.actor.default-dispatcher-25] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+12:00:08.478 [default-akka.actor.default-dispatcher-25] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+12:00:08.478 [default-akka.actor.default-dispatcher-25] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+12:00:08.478 [default-akka.actor.default-dispatcher-25] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@4a0fa951[read=QUORUM,write=QUORUM]
+12:00:08.478 [default-akka.actor.default-dispatcher-25] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@44c84e60[read=QUORUM,write=QUORUM]
+12:00:08.478 [default-akka.actor.default-dispatcher-25] DEBUG c.t.t.g.t.TitanBlueprintsGraph - Created new thread-bound transaction standardtitantx[0x40f7c221]
+12:00:08.478 [default-akka.actor.default-dispatcher-25] WARN  c.t.t.g.transaction.StandardTitanTx - Query requires iterating over all vertices [()]. For better performance, use indexes
+[DEBUG] [10/19/2015 12:00:08.480] [default-akka.actor.default-dispatcher-12] [ActorSystem(default)] test: Response for
+  Request : HttpRequest(HttpMethod(GET),http://localhost:9000/api/v1/test,List(User-Agent: curl/7.32.0, Host: localhost:9000, Accept: */*),HttpEntity.Strict(none/none,ByteString()),HttpProtocol(HTTP/1.1))
+  Response: Complete(HttpResponse(200 OK,List(),HttpEntity.Strict(application/json,ByteString(123, 10, 32, 32, 34, 110, 97, 109, 101, 34, 58, 32, 34, 85, 115, 101, 114, 115, 34, 44, 10, 32, 32, 34, 97, 103, 101, 34, 58, 32, 48, 10, 125)),HttpProtocol(HTTP/1.1)))
+12:00:11.668 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@2914adbc[read=QUORUM,write=QUORUM]
+[DEBUG] [10/19/2015 12:00:13.500] [default-akka.actor.default-dispatcher-8] [akka://default/system/IO-TCP/selectors/$a/0] New connection accepted
+[INFO] [10/19/2015 12:00:13.514] [default-akka.actor.default-dispatcher-21] [Main$(akka://default)] got get request
+12:00:13.514 [default-akka.actor.default-dispatcher-17] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+12:00:13.514 [default-akka.actor.default-dispatcher-17] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+12:00:13.514 [default-akka.actor.default-dispatcher-17] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+12:00:13.514 [default-akka.actor.default-dispatcher-17] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@6f996696[read=QUORUM,write=QUORUM]
+12:00:13.514 [default-akka.actor.default-dispatcher-17] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@464f4cb6[read=QUORUM,write=QUORUM]
+12:00:13.514 [default-akka.actor.default-dispatcher-17] DEBUG c.t.t.g.t.TitanBlueprintsGraph - Created new thread-bound transaction standardtitantx[0x5d95bbee]
+12:00:13.514 [default-akka.actor.default-dispatcher-17] WARN  c.t.t.g.transaction.StandardTitanTx - Query requires iterating over all vertices [()]. For better performance, use indexes
+[DEBUG] [10/19/2015 12:00:13.517] [default-akka.actor.default-dispatcher-14] [ActorSystem(default)] test: Response for
+  Request : HttpRequest(HttpMethod(GET),http://localhost:9000/api/v1/test,List(User-Agent: curl/7.32.0, Host: localhost:9000, Accept: */*),HttpEntity.Strict(none/none,ByteString()),HttpProtocol(HTTP/1.1))
+  Response: Complete(HttpResponse(200 OK,List(),HttpEntity.Strict(application/json,ByteString(123, 10, 32, 32, 34, 110, 97, 109, 101, 34, 58, 32, 34, 85, 115, 101, 114, 115, 34, 44, 10, 32, 32, 34, 97, 103, 101, 34, 58, 32, 48, 10, 125)),HttpProtocol(HTTP/1.1)))
+12:00:16.672 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@613235fa[read=QUORUM,write=QUORUM]
+[DEBUG] [10/19/2015 12:00:18.537] [default-akka.actor.default-dispatcher-18] [akka://default/system/IO-TCP/selectors/$a/0] New connection accepted
+[INFO] [10/19/2015 12:00:18.557] [default-akka.actor.default-dispatcher-18] [Main$(akka://default)] got get request
+12:00:18.557 [default-akka.actor.default-dispatcher-28] DEBUG c.t.t.g.transaction.StandardTitanTx - Guava vertex cache size: requested=20000 effective=20000 (min=100)
+12:00:18.558 [default-akka.actor.default-dispatcher-28] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created dirty vertex map with initial size 32
+12:00:18.558 [default-akka.actor.default-dispatcher-28] DEBUG c.t.t.g.t.v.GuavaVertexCache - Created vertex cache with max size 20000
+12:00:18.558 [default-akka.actor.default-dispatcher-28] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@6d60e0c8[read=QUORUM,write=QUORUM]
+12:00:18.558 [default-akka.actor.default-dispatcher-28] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@40ce19[read=QUORUM,write=QUORUM]
+12:00:18.558 [default-akka.actor.default-dispatcher-28] DEBUG c.t.t.g.t.TitanBlueprintsGraph - Created new thread-bound transaction standardtitantx[0x27139e99]
+12:00:18.558 [default-akka.actor.default-dispatcher-28] WARN  c.t.t.g.transaction.StandardTitanTx - Query requires iterating over all vertices [()]. For better performance, use indexes
+[DEBUG] [10/19/2015 12:00:18.560] [default-akka.actor.default-dispatcher-21] [ActorSystem(default)] test: Response for
+  Request : HttpRequest(HttpMethod(GET),http://localhost:9000/api/v1/test,List(User-Agent: curl/7.32.0, Host: localhost:9000, Accept: */*),HttpEntity.Strict(none/none,ByteString()),HttpProtocol(HTTP/1.1))
+  Response: Complete(HttpResponse(200 OK,List(),HttpEntity.Strict(application/json,ByteString(123, 10, 32, 32, 34, 110, 97, 109, 101, 34, 58, 32, 34, 85, 115, 101, 114, 115, 34, 44, 10, 32, 32, 34, 97, 103, 101, 34, 58, 32, 48, 10, 125)),HttpProtocol(HTTP/1.1)))
+12:00:21.674 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@57b28613[read=QUORUM,write=QUORUM]
+12:00:26.677 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@3a519f7a[read=QUORUM,write=QUORUM]
+12:00:31.681 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@3624acc1[read=QUORUM,write=QUORUM]
+12:00:36.684 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@4649d21a[read=QUORUM,write=QUORUM]
+12:00:41.688 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@58856de[read=QUORUM,write=QUORUM]
+12:00:46.691 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@3394a35a[read=QUORUM,write=QUORUM]
+12:00:51.692 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@20c5434d[read=QUORUM,write=QUORUM]
+12:00:56.694 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@28949c4d[read=QUORUM,write=QUORUM]
+12:01:01.696 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@6f6d1127[read=QUORUM,write=QUORUM]
+12:01:06.700 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@7975e1e3[read=QUORUM,write=QUORUM]
+12:01:11.703 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@73a00aab[read=QUORUM,write=QUORUM]
+12:01:16.705 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@7fda9666[read=QUORUM,write=QUORUM]
+12:01:21.708 [pool-4-thread-1] DEBUG c.t.t.d.c.CassandraTransaction - Created CassandraTransaction@78394493[read=QUORUM,write=QUORUM]
+
+Process finished with exit code 137
+
